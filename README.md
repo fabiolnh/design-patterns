@@ -26,3 +26,4 @@ Design Patterns - GoF
   * Commonly used in Custom Coffee Systems, E-Commerce, Notification Systems, and Log Frameworks.
 - Facade: Provides a simplified interface to a complex subsystem. It is useful for hiding the complexity of a system and providing a simpler and more user-friendly interface for customers.
   * Involves creating a single class that provides a simplified interface to a set of classes or a complex subsystem. It facilitates the use of the subsystem without exposing its complexity to the customer.
+- Flyweight: Allows you to create a large number of objects in a memory-efficient way, sharing common data between them whenever possible
