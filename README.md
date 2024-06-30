@@ -28,3 +28,12 @@ Design Patterns - GoF
   * Involves creating a single class that provides a simplified interface to a set of classes or a complex subsystem. It facilitates the use of the subsystem without exposing its complexity to the customer.
 - Flyweight: Allows you to create a large number of objects in a memory-efficient way, sharing common data between them whenever possible
 - Proxy: Provides a point which an object can be accessed. It is useful for controlling access to an object, adding functionality, or optimizing operations.
+
+3) Behavior
+- Chain of Responsability: Allows a request to be processed by a chain of objects, where each object in the chain can process the request or pass it to the next object in the chain.
+- Command: Transforms a request into an object, allowing you to parameterize clients with different requests, queue or log requests, and support operations that can be reverted.
+- Interpreter: Defines a grammatical representation for a language and an interpreter that uses the representation to interpret sentences from that language. It is useful when we have to interpret sentences from a well-defined language.
+- Iterator: Allows sequential access to the elements of an aggregate (collection) without exposing their underlying representation. This pattern is widely used in collections and data structures to provide a uniform way to iterate over elements.
+- Mediator: Facilitates communication between objects, centralizing interactions in a mediating object. This pattern helps reduce direct dependencies between objects, promoting decoupling and making the system easier to maintain and extend.
+- Memento: Allows you to capture and restore the internal state of an object without violating encapsulation. This pattern is useful for implementing undo functionality in applications.
+- Observer: Defines a one-to-many dependency between objects, so that when an object changes state, all its dependents are notified and updated automatically. This pattern is useful in situations where an object needs to notify other objects about changes to its state.
